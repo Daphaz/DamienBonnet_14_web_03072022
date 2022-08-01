@@ -1,0 +1,16 @@
+@import '@/styles/shared.scss';
+
+/* #region  /**=========== Block =========== */
+.main {
+  margin: 0 auto !important;
+}
+/* #endregion  /**======== Block =========== */
+
+/* #region  /**=========== Element =========== */
+.title {
+  @extend %title-24;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+/* #endregion  /**======== Element =========== */

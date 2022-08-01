@@ -1,0 +1,67 @@
+@import '@/styles/shared.scss';
+
+/* #region  /**=========== Block =========== */
+.form {
+  @extend %flex-col;
+  flex: 1 1 auto;
+  border-radius: 14px;
+  padding: 1.25rem 0.75rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-width: 1px;
+  background-color: $clr-white;
+  filter: drop-shadow(0 12px 24px #68707626) drop-shadow(0 12px 14px #6870761a);
+}
+.row {
+  gap: 0.75rem;
+  margin: initial;
+  margin-bottom: 0.55rem;
+}
+/* #endregion  /**======== Block =========== */
+
+/* #region  /**=========== Element =========== */
+.title {
+  @extend %title-24;
+  user-select: none;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+.subtitle {
+  @extend %title-20;
+  user-select: none;
+  margin: 1.2rem 0 0.45rem;
+}
+.input {
+  max-width: 100%;
+  min-width: 100%;
+  flex-grow: 1;
+  padding: 0;
+
+  input {
+    width: 100%;
+  }
+
+  & > div:first-child {
+    width: 100%;
+  }
+}
+.footer {
+  margin-top: auto;
+  padding-top: 2rem;
+  z-index: -1;
+}
+/* #endregion  /**======== Element =========== */
+
+/* #region  /**=========== Modifier =========== */
+.index {
+  z-index: 1;
+}
+.center {
+  @extend %center;
+  padding-bottom: 1.5rem;
+}
+/* #endregion  /**======== Modifier =========== */
