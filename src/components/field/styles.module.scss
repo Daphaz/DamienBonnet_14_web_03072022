@@ -1,0 +1,34 @@
+@import '@/styles/shared.scss';
+
+/* #region  /**=========== Element =========== */
+.block {
+  display: inline-flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.label {
+  @extend %desc-16;
+  display: block;
+  margin: 0.6rem 0;
+  width: 100%;
+  color: $clr-grey-700;
+}
+.error {
+  display: block;
+  padding: 4px 10px;
+  color: $clr-red;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  word-wrap: break-word;
+}
+/* #endregion  /**======== Element =========== */
+
+/* #region  /**=========== Modifier =========== */
+.isError {
+  & > div:first-child {
+    color: $clr-red;
+    border: 1px solid #d1495b44;
+  }
+}
+/* #endregion  /**======== Modifier =========== */
