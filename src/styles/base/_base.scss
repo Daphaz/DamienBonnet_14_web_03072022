@@ -1,0 +1,23 @@
+html {
+  line-height: 1.5;
+  box-sizing: border-box;
+  text-rendering: geometricprecision;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-body;
+  color: $clr-black;
+  background-color: $clr-white;
+}
+
+#root {
+  @extend %flex-col;
+  width: 100%;
+  min-height: 100vh;
+}

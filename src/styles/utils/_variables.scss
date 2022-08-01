@@ -1,0 +1,42 @@
+:root {
+  --font-body: 'Poppins', sans-serif;
+  --clr-white: #fcfcfc;
+  --clr-black: #231f20;
+  --clr-primary: #00798c;
+  --clr-primary-light: #56ddf2;
+  --clr-secondary: #dd6e42;
+  --clr-secondary-light: #f4ae93;
+  --clr-red: #d1495b;
+  --clr-green: #698f3f;
+  --clr-yellow: #e0be36;
+  --clr-grey-700: #282d30;
+  --clr-grey-600: #c4c4c480;
+  --clr-grey-500: #74798c;
+  --clr-grey-400: #9b9eac;
+  --clr-grey-300: #dedede;
+  --clr-grey-200: #f1f3f5;
+  --clr-grey-100: #fbfbfb;
+}
+
+/* #region  /**=========== Fonts =========== */
+$font-body: var(--font-body);
+/* #endregion  /**======== Fonts =========== */
+
+/* #region  /**=========== Colors =========== */
+$clr-white: var(--clr-white);
+$clr-black: var(--clr-black);
+$clr-primary: var(--clr-primary);
+$clr-primary-light: var(--clr-primary-light);
+$clr-secondary: var(--clr-secondary);
+$clr-secondary-light: var(--clr-secondary-light);
+$clr-red: var(--clr-red);
+$clr-green: var(--clr-green);
+$clr-yellow: var(--clr-yellow);
+$clr-grey-700: var(--clr-grey-700);
+$clr-grey-600: var(--clr-grey-600);
+$clr-grey-500: var(--clr-grey-500);
+$clr-grey-400: var(--clr-grey-400);
+$clr-grey-300: var(--clr-grey-300);
+$clr-grey-200: var(--clr-grey-200);
+$clr-grey-100: var(--clr-grey-100);
+/* #endregion  /**======== Colors =========== */
